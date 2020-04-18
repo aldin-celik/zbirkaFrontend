@@ -1,0 +1,45 @@
+.glavniKontejner
+{
+	padding: 10px;
+}
+.postavkaZadatka
+{
+    margin: 10px;
+    padding: 0px;
+    font-size: 20px;
+}
+.postavkaZadatka > div
+{
+    border: solid black 1px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+.rjesenjeZadatka
+{
+    margin: 10px;
+    padding: 0px;
+    font-size: 20px;
+}
+.rjesenjeZadatka > button
+{
+    width: 250px;
+    height: 50px;
+    font-size: 70%;
+    border-radius: 10px;
+    border-style: solid;
+    font-size: 20px;
+    background-color: rgb(11, 49, 100);
+    color: white;
+    cursor: pointer;
+}
+#tekstRjesenja
+{
+    border: solid black 1px;
+    border-radius: 4px;
+	padding: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+}

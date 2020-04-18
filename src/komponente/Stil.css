@@ -1,0 +1,251 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.glavniKontejner > a 
+{
+    text-decoration: none;
+    color:black;
+}
+.glavniKontejner > a:visited
+{
+    text-decoration: none;
+    color: black;
+}
+.navigacija 
+{
+    background-color: lightgray;
+    min-height: 50px;
+    display:flex;
+    align-items: center;
+    position: static;
+    width:100%;
+}
+.navigacijaLink
+{
+    width: 30%;
+    color: rgb(6, 6, 97);
+    text-decoration: none;
+    margin: 15px;
+    font-size:25px;
+}
+.glavniKontejner
+{
+    padding: 10px;
+    width:100%
+}
+.postavkaZadatka
+{
+    margin: 10px;
+    padding: 0px;
+    font-size: 20px;
+}
+.postavkaZadatka > div
+{
+    border: solid black 1px;
+    padding: 5px;
+    font-size: 20px;
+}
+.loginDiv
+{
+    float:right;
+    position: absolute;
+    top:20px;
+    right: 30px;
+    font-size: 20px;
+}
+.unosLogina
+{
+    right:0px;
+    position: absolute;
+    display:block;
+    background-color: white;
+    font-size: 20px;   
+    z-index: 5;
+    border: solid black 1px;
+    padding: 20px;
+    overflow: hidden;
+}
+.unosLogina > form > button
+{
+    width: 80px;
+    height: 30px;
+    font-size: 70%;
+    margin:5px;
+    border-radius: 7px;
+    position: relative;
+    top: 10px;
+}
+.divRegistracija
+{
+    padding: 30px;
+    position: relative;
+    font-size:25px;
+    width:500px;
+}
+.divRegistracija > input
+{
+    position:absolute;
+    right:0px;
+    border-radius: 5px;
+    border: solid black 1px;
+    font-size:25px;
+}
+.divRegistracija > button
+{
+    width: 250px;
+    height: 50px;
+    font-size: 70%;
+    border-radius: 10px;
+    border-style: solid;
+    font-size: 20px;
+    background-color: rgb(11, 49, 100);
+    color: white;
+    cursor: pointer;
+    position:absolute;
+    right:0px;
+}
+.tekstGreske
+{
+    color:red;
+}
+.RHZ
+{
+    margin-right: 100px;
+}
+.spasavanje
+{
+    width:300px;
+}
+.spasavanjeButton
+{
+    width: 250px;
+    height: 50px;
+    font-size: 70%;
+    border-radius: 10px;
+    border-style: solid;
+    font-size: 20px;
+    background-color: rgb(11, 49, 100);
+    color: white;
+    cursor: pointer;
+}
+.cuvanjeZadatka
+{
+    margin: 10px;
+    padding: 0px;
+    font-size: 20px;
+}
+.navigator
+{
+    font-size:20px;
+    margin: auto;
+    width:20%;
+}
+.filtracija
+{
+    margin: 20px;
+}
+.spasavanje
+{
+    flex: 1;
+}
+.jedanZadatak
+{
+    border: solid black 1px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+.jedanZadatakLatex
+{
+    text-decoration: none;
+}
+
+.inputPolje
+{
+    border-radius: 5px;
+    border: solid black 1px;
+    font-size:25px;
+    margin-bottom: 10px;
+}
+.dodajGrupu
+{
+    width:500px;
+    float: left;
+    overflow: hidden;
+}
+.obrisiGrupu
+{
+    width:500px;
+    position: relative;
+    overflow: visible;
+    float: left;
+}
+.selectPolje
+{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.obavjestenje
+{
+    position: fixed;
+    bottom:20px;
+    right:100px;
+    font-size: 30px;
+}
+.inputArea
+{
+    width: 90%;
+    min-height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 17px;
+    resize: none;
+}
+.previewArea
+{
+    width: 90%;
+    min-height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 17px;
+    word-wrap: break-word;
+}
+.ikonaBrisanje
+{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left:30px;
+}
+.ikonaEdit
+{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left:30px;
+}
+.editButton
+{
+    width: 250px;
+    height: 50px;
+    font-size: 70%;
+    border-radius: 10px;
+    border-style: solid;
+    font-size: 20px;
+    background-color: rgb(11, 49, 100);
+    color: white;
+    cursor: pointer;
+    margin-left:50px;
+}
