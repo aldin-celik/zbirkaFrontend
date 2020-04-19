@@ -6,7 +6,7 @@ import { withRouter } from "react-router-dom";
 import ReactTimeout from 'react-timeout';
 var Latex = require('react-latex');
 
-const ruta = "http://localhost:8080";
+const ruta = process.env.BACKEND_URL;
 
 class dodajZadatak extends React.Component {
 

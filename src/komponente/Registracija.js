@@ -3,7 +3,7 @@ import './Stil.css';
 import axios from 'axios';
 import { withRouter } from "react-router-dom";
 
-const ruta = "http://localhost:8080";
+const ruta = process.env.BACKEND_URL;
 
 class Registracija extends React.Component {
 
