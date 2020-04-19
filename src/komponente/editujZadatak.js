@@ -6,7 +6,8 @@ import { withRouter, Redirect } from "react-router-dom";
 import ReactTimeout from 'react-timeout';
 var Latex = require('react-latex');
 
-const ruta = process.env.BACKEND_URL;
+//const ruta = "http://localhost:8080";
+const ruta = "http://aldincelikbackend.herokuapp.com";
 
 class editujZadatak extends React.Component {
 

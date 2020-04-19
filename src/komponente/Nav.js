@@ -3,7 +3,9 @@ import {Link} from 'react-router-dom';
 import './Stil.css';
 import axios from 'axios';
 
-const ruta = process.env.BACKEND_URL;
+//const ruta = "http://localhost:8080";
+const ruta = "http://aldincelikbackend.herokuapp.com";
+
 class Nav extends React.Component {
 
 	constructor(props)
