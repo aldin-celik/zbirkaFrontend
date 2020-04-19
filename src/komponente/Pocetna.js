@@ -8,7 +8,7 @@ import ReactTimeout from 'react-timeout';
 var Latex = require('react-latex');
 
 //const ruta = "http://localhost:8080";
-const ruta = "http://aldincelikbackend.herokuapp.com";
+const ruta = "https://aldincelikbackend.herokuapp.com";
 
 const tempLista = 
 [

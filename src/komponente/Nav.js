@@ -4,7 +4,7 @@ import './Stil.css';
 import axios from 'axios';
 
 //const ruta = "http://localhost:8080";
-const ruta = "http://aldincelikbackend.herokuapp.com";
+const ruta = "https://aldincelikbackend.herokuapp.com";
 
 class Nav extends React.Component {
 
