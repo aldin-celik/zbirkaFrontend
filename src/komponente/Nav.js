@@ -114,7 +114,7 @@ class Nav extends React.Component {
 
 		let logovanUser = localStorage.getItem('logovan');
 
-		if(logovanUser == 0)
+		if(logovanUser == null || logovanUser == 0)
 		{
 			loginD = <><Link onClick = {() => {this.toggleLogin()}}>Login</Link> ili <Link to='/registracija'>Registracija</Link></>
 		}
