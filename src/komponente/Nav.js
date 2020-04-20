@@ -3,8 +3,8 @@ import {Link} from 'react-router-dom';
 import './Stil.css';
 import axios from 'axios';
 
-//const ruta = "http://localhost:8080";
-const ruta = "https://aldincelikbackend.herokuapp.com";
+const ruta = "http://localhost:8080";
+//const ruta = "https://aldincelikbackend.herokuapp.com";
 
 class Nav extends React.Component {
 

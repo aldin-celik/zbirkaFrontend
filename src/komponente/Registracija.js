@@ -3,8 +3,8 @@ import './Stil.css';
 import axios from 'axios';
 import { withRouter } from "react-router-dom";
 
-//const ruta = "http://localhost:8080";
-const ruta = "https://aldincelikbackend.herokuapp.com";
+const ruta = "http://localhost:8080";
+//const ruta = "https://aldincelikbackend.herokuapp.com";
 
 class Registracija extends React.Component {
 
