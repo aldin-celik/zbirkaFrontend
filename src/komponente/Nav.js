@@ -134,7 +134,6 @@ class Nav extends React.Component {
 	  return (
 		  <div>
 		<nav className = "navigacija">
-			<div stlye="width:100%">
 			<ul>
 				<Link className = "navigacijaLink" to='/'>Pregled zadataka</Link>
 				<Link className = "navigacijaLink" to='/zapamceni'>Zapamćeni zadaci</Link>
@@ -143,7 +142,7 @@ class Nav extends React.Component {
 			<div className = "loginDiv">
 				 {loginD}
 			</div>
-		   </div>
+		
 		</nav>
 		{loginF}
 		</div>
